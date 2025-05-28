@@ -19,12 +19,12 @@ To invert the background/foreground color edit
 the `lib/nrn.def` (windows) or `share/nrn/lib/nrn.defaults` (unix) file
 in the NEURON home directory, and change the two lines:
 
-*Scene_background: #ffffff
+*Scene_background: #ffffff  
 *Scene_foreground: #000000
 
 to
 
-*Scene_background: #000000
+*Scene_background: #000000  
 *Scene_foreground: #ffffff
 
 This change will affect all future graphs, so
@@ -61,6 +61,4 @@ for valuable discussions on the model.
 - 19 Sept 2007 - T. Morse
   Set 0 diam points in soma in ca3a.geo to 1e-9 so modelview works.
 
----
-
-2025-05-27 – Standardized to Markdown.
+- 27 May 2025 - Standardized to Markdown.
